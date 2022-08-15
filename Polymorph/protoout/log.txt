@@ -1,0 +1,7 @@
+Elapsed Time (ns): 849198800
+Used Seed (PRNG): 335332260983000512
+Used Memory (B): 3092840
+Size (B): 142
+Transformations Applied (Count): 15
+Data-Types Edit Distance (Count): 8
+Program Size (B): 80457

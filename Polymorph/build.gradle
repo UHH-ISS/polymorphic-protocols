@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+}
+
+plugins {
+    id 'application'
+}
+
+application {
+    mainClass = 'main.java.com.uhh.code.polymorph.Main'
+}
+
+allprojects {
+    tasks.withType(JavaCompile) {
+        sourceCompatibility = '16'
+        targetCompatibility = '16'
+    }
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.squareup:javapoet:1.13.0'
+    implementation 'com.github.os72:protoc-jar:3.11.4'
+    implementation 'com.google.protobuf:protoc:3.19.1'
+    implementation 'com.google.protobuf:protobuf-java:3.19.1'
+    implementation 'com.squareup:javapoet:1.13.0'
+    implementation 'com.google.protobuf:protobuf-gradle-plugin:0.8.17'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}

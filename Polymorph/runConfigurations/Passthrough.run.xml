@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Passthrough" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.uhh.code.polymorph.Main" />
+    <module name="Paper.main" />
+    <option name="PROGRAM_PARAMETERS" value="passthrough" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.uhh.code.polymorph.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

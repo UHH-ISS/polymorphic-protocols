@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+/*
+all Fields which exist in proto
+*/
+
+message allfieldsonce {
+    double some_double = 1;
+    float some_float = 2;
+    int32 some_int32 = 3;
+    int64 some_int64 = 4;
+    uint32 some_uint32 = 5;
+    uint64 some_uint64 = 6;
+    sint32 some_sint32 = 7;
+    sint64 some_sint64 = 8;
+    fixed32 some_fixed32 = 9;
+    fixed64 some_fixed64 = 10;
+    sfixed32 some_sfixed32 = 11;
+    sfixed64 some_sfixed64 = 12;
+    bool some_boolean = 13;
+    string some_string = 14;
+    bytes some_bytes = 15;
+}
